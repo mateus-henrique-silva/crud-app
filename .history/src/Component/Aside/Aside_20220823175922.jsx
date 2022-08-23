@@ -7,9 +7,6 @@ const Aside = () => {
     <div className="aside-end">
       <aside>
         <h1>Biblioteca Online</h1>
-        <Link to="/adminBook">Livros</Link>
-          <Link to="/">Usuarios</Link>
-          <Link to="/">Reservas</Link>
         <Router>
     
 
