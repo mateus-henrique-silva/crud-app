@@ -1,0 +1,14 @@
+aside {
+  flex-direction: column;
+  display: flex;
+
+  width: 100%;
+}
+
+.aside-end {
+  width: 20vw;
+  height: 100vh;
+  display: flex;
+  margin: 20px;
+  justify-content: flex-end !important;
+}

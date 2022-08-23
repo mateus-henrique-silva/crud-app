@@ -1,0 +1,10 @@
+aside{
+    flex-direction: column;
+    display: flex;
+    justify-content: flex-end;
+   width: 100%;
+}
+
+.aside-end{
+    width: 100%;
+}

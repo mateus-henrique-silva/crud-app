@@ -1,0 +1,18 @@
+aside {
+  flex-direction: column;
+  display: flex;
+  color: ;
+  margin: 25px;
+  width: 100%;
+}
+aside a{
+    margin: 25px;
+}
+.aside-end {
+  width: 20vw;
+  height: 100vh;
+  display: flex;
+  
+  background-color: #e9dac1;
+  justify-content: flex-end !important;
+}
