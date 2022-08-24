@@ -2,6 +2,9 @@ import "./App.css";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Sign from "./Pages/Sign/Sign";
 import Admin from "./Pages/Admin/Admin";
+import Forms from "./Component/FormCreate/Form"
+import AddUsers from "./Component/FormCreate/AddUsers";
+import EditUsers from"./Component/FormCreate/EditUsers";
 const Private = ({ Item }) => {
   const { signed } = true;
 
@@ -14,9 +17,14 @@ function App() {
         <Routes>
         <Route exact path="/admin" element={<Admin />} />
           <Route exact element={<Sign />} path="/" />
-          <Route element={<Sign />} path="*" />
+          <Route exact path="/form" element={<Forms/>} />
+          <Route exact path="/edit/:id" element={<EditUsers />} />
+          <Route exact path="/add" element={<AddUsers />} />
+          
+      
         </Routes>
       </Router>
+
     </div>
   );
 }

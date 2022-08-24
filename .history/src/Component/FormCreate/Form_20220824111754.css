@@ -1,0 +1,17 @@
+.form-create{
+    display:flex;
+    flex-direction:column;
+
+}
+
+.form-create input{
+   background-color:white;
+   border:1px solid;
+
+}
+
+.form-create button{
+    background-color:white;
+    border:1px solid;
+ 
+ }

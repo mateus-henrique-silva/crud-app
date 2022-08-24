@@ -1,0 +1,10 @@
+.form-create{
+    display:flex;
+    flex-direction:column;
+
+}
+
+.form-create input{
+   placeholder:width
+
+}
