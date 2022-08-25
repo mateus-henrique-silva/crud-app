@@ -1,0 +1,23 @@
+.list-user{
+    width: 500px;
+    background-color:#D3D3D3;
+    height:50px;
+    justify-content:space-around;
+    display: flex;
+    
+    
+}
+
+.flex-btn{
+    width: 40%;
+    hei
+    justify-content:space-around;
+    display: flex;
+   
+}
+
+
+.flex-btn button{
+   width: 60px;
+   height: 20px;
+}

@@ -1,0 +1,23 @@
+.link-button-add{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:black;
+    height: 55px;
+    
+}
+
+.link-button-add a{
+text-decoration: none;
+color: white;
+padding:6px 15px 6px;
+background-color:green;
+transition:0.6s;
+
+}
+
+.link-button-add a:hover{
+    
+    background-color:rgb(25, 255, 25);
+    }
